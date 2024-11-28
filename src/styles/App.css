@@ -1,0 +1,15 @@
+.page {
+  padding: 20px;
+  margin-top: 60px; /* Offset for the fixed header */
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
